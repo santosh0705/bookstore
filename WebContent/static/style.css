@@ -1,0 +1,171 @@
+html, body {
+    background: #fff;
+    font-family: sans-serif;
+    margin:0;
+}
+
+.container {
+    margin: 0 auto;
+}
+
+header {
+    background:#225198;
+    color:#fff;
+    position: relative;
+    margin:0;
+    background-image:url("logo.png");
+    background-repeat:no-repeat;
+    background-size:initial;
+    background-position: 10px  5px;
+}
+
+.booklinkalign {
+    color:#000;
+    font-size:16px;
+    text-decoration:none;
+    padding:6px 12px 3px 12px;
+    position:relative;
+    bottom:6px;
+    vertical-align:middle;
+    text-align: center; 
+    border-radius: 4px;
+    background: #24bff2;
+}
+
+.booklinkalign:hover {
+    background:#0f2546;
+    color:#fff;
+}
+
+.booklinkalign  a.active {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.bookstoretable {
+    background:#fff;
+    border-collapse: collapse;
+    width:50%; 
+}
+
+.bookstoretablecap {
+    background:#225198;
+    border-collapse: collapse;
+    height: 36px;
+}
+
+.bookstoreheading {
+    font-size: 20px;
+    color: #fff;
+    font-family: sans-serif;
+    line-height: 36px;
+    margin:0;
+}
+
+tr:hover {
+    background-color: #f5f5f5;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+th {
+    font-weight:700;
+}
+
+tr {
+    font-weight:400;
+}
+
+tr, th {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size:14px;
+} 
+
+td {
+    padding: 8px;
+    text-align: left;
+    border: 1px solid #ddd;
+    font-size:12px;
+}
+
+.tablediv {
+    position:relative;
+    top:30px;
+}
+
+.bookmanagement {
+    position:relative;
+    top:4px;
+    vertical-align: middle;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.paraalign {
+    text-align:center;
+}
+
+.iconalign {
+    text-decoration:none;
+    font-size:12px;
+    color:#000;
+}
+
+.bookstoresubmit {
+    background: #225198;
+    padding: 8px 25px 8px 25px;
+    color: #fff;
+    font-weight: 700;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.bookstoresubmit:hover {
+    background:#0d264a;
+    color:#fff;
+    font-weight: 700;
+    cursor:pointer;
+}
+
+.inputalignment {
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    border: 1px solid #C2C2C2;
+    box-shadow:inset 1px 1px #ddd;
+    -moz-box-shadow: 1px 1px 4px #EBEBEB;
+    -webkit-box-shadow: 1px 1px 4px #EBEBEB;
+    border-radius: 4px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    padding: 7px;
+    outline: none;
+}
+
+.inputalignment:focus {
+    border: 1px solid #888888;
+
+}
+
+footer {
+    background-color: #225198;
+    width: 100%;
+    bottom: 0;
+    position: fixed;
+    color:#fff;
+    font-size:12px;
+    background-image:url("footerlogo.png");
+    background-repeat:no-repeat;
+    background-size:initial;
+    background-position: 10px 5px;
+ 
+}
+
+footer p {
+    text-align: center;
+}
