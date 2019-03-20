@@ -11,7 +11,7 @@
 <body>
         <div class="container">    
 	<header class="bookstorealgin">
-		<h1 class="bookmanagement">Books Management</h1>
+		<h1 class="bookmanagement">Book Management</h1>
         <nav>
         <p class="paraalign">	<a href="new" class="booklinkalign"><i class="fa fa-plus"></i> Add New Book</a>
         	<a href="list" class="booklinkalign"><i class="fa fa-list"></i> List All Books</a>
